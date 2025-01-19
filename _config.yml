@@ -17,7 +17,7 @@ title: "Hi! I'm Malena del Rosario"
 email: 'malena.delrosario@student.ateneo.edu'
 description: "I'm a 3rd Year Computer Science student specializing in Enterprise Systems
  from the Ateneo de Manila University. Check my projects below!"
-baseurl: "imadelro.github.io" # the subpath of your site, e.g. /blog
+baseurl: imadelro.github.io/portfolio # the subpath of your site, e.g. /blog
 url: "https://imadelro.github.io/portfolio" # the base hostname & protocol for your site, e.g. https://example.com
 linkedin_username: "malena-delrosario"
 github_username: "imadelro"
