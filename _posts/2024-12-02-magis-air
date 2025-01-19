@@ -1,0 +1,9 @@
+---
+layout: post
+title: "Magis Air"
+date: 2024-12-02
+project_image: /assets/images/01_magis_air.png
+link: https://github.com/imadelro/Magis-Air
+tags: [AI, Python, Web Development]
+description: "This project is about showcasing my work with Seam Carving for image resizing."
+---
