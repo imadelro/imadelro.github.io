@@ -28,6 +28,9 @@
     font-display: swap;
 }
 
+html {
+    scroll-behavior: smooth;
+}
 
 /* Style header */
 header {
