@@ -1,5 +1,6 @@
 ---
 layout: post
+order: 3
 title: 'Seam Carver'
 date: 2023-12-04
 project_image: /assets/images/03_seam_carver.png
