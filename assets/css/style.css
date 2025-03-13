@@ -28,6 +28,9 @@
     font-display: swap;
 }
 
+html {
+    scroll-behavior: smooth;
+}
 
 /* Style header */
 header {
@@ -144,6 +147,7 @@ header p {
     font-family: 'GeneralSans-Regular';
     font-size: 1.2em;
     background: #fff;
+    padding-top: 80px;
 }
 .project {
     display: flex;

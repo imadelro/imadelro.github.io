@@ -1,5 +1,6 @@
 ---
 layout: post
+order: 2
 title: 'IF ( IS INFECTED )'
 date: 2023-05-18
 project_image: /assets/images/02_game.png

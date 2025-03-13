@@ -1,20 +1,16 @@
-<section id="projects">
-    <h2>MY PROJECTS</h2>
-    <div class="projects-container">
-        {% for project in site.projects %}
-            <div class="project">
-                <img src="{{ project.image }}" alt="{{ project.title }} image">
-                <div class="project-description">
-                    <h3>{{ project.title }}</h3>
-                    <p>{{ project.description }}</p>
-                    <div class="project-tags">
-                        {% for tag in project.tags %}
-                            <span class="tag">{{ tag }}</span>
-                        {% endfor %}
-                    </div>
-                    <a href="{{ project.link }}" class="btn">View Project</a>
-                </div>
+{% assign sorted_projects = site.projects | sort: 'order' %}
+{% for project in sorted_projects %}
+    <div class="project" data-aos="fade-up" data-aos-duration="500">
+        <img src="{{ project.project_image | relative_url }}" alt="{{ project.name }} image">
+        <div class="project-description">
+            <h3>{{ project.title }}</h3>
+            <p>{{ project.description }}</p>
+            <div class="project-tags">
+                {% for tag in project.tags %}
+                    <span class="tag">{{ tag }}</span>
+                {% endfor %}
             </div>
-        {% endfor %}
+            <a href="{{ project.link }}" class="btn">View Project</a>
+        </div>
     </div>
-</section>
+{% endfor %}
